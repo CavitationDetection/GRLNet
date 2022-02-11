@@ -1,5 +1,7 @@
 # Regional-Local Adversarially Learned One-Class Classifier Anomalous Sound Detection in Global Long-Term Space (GRLNet)
 
+![img1]()
+
 ## Requirements
 
 - Python 3.8.11
