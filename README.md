@@ -21,3 +21,8 @@ Note that, for the current version. test.py is nor required as the code calls th
 
 - Download trained generators and discirminator models from [here] and place inside the directory ./models/
 - run test.py
+
+
+## Updates
+
+[11.2.2022] For the time being, test code (and some trained models) are being made available. Training code will be uploaded in some time.
