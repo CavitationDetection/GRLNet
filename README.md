@@ -26,3 +26,8 @@ Note that, for the current version. test.py is nor required as the code calls th
 ## Updates
 
 [11.2.2022] For the time being, test code (and some trained models) are being made available. Training code will be uploaded in some time.
+
+
+For any queries, please feel free to contact YuSha et al. through yusha20211001@gmail.com
+
+If you find this code helpful, please cite our paper: 
