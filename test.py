@@ -1,10 +1,3 @@
-'''
-Description: 
-Author: Yu Sha
-Date: 2021-09-28 09:30:05
-LastEditors: Yu Sha
-LastEditTime: 2022-01-30 18:48:20
-'''
 import torch
 import torch.nn.functional as F
 import torchvision.utils as vutils
@@ -23,9 +16,9 @@ warnings.filterwarnings("ignore")
 import os
 parser = argparse.ArgumentParser(description='Our model options')
 parser.add_argument('--cuda', action = 'store_true', help = 'Choose device to use cpu cuda') 
-parser.add_argument('--test_root', action = 'store', type = str,default = '/home/yusha/deepthinkers/samson/yusha_workspace/AnomalyDetectionData/Data2017/individualstate/incipient/TestSpec', 
+parser.add_argument('--test_root', action = 'store', type = str,default = './Data/Test', 
                         help = 'Root path of test data (normal and abormal data)')
-parser.add_argument('--test_label_path', action='store', type=str, default = '/home/yusha/deepthinkers/samson/yusha_workspace/AnomalyDetectionData/Data2017/individualstate/incipient/Label/test_split_label.csv', 
+parser.add_argument('--test_label_path', action='store', type=str, default = './Data/Test/test_label.csv', 
                         help = 'Path of test data label (normal and abnormal data)') 
 
 parser.add_argument('--mess_length', action = 'store', type = int, default = 233472, 
@@ -45,9 +38,9 @@ def test(opts):
     r_g_net = Regional_G_Net()
     d_net = D_Net() 
 
-    l_g_net.load_state_dict(torch.load('./results/778240_6_Local_GNet/model43_0.9833333333333333.pth'))
-    r_g_net.load_state_dict(torch.load('./results/778240_6_Regional_GNet/model43_0.9833333333333333.pth'))
-    d_net.load_state_dict(torch.load('./results/778240_6_DNet/model43_0.9833333333333333.pth'))
+    l_g_net.load_state_dict(torch.load('./models/model43_0.9833333333333333.pth'))
+    r_g_net.load_state_dict(torch.load('./models/model43_0.9833333333333333.pth'))
+    d_net.load_state_dict(torch.load('./models/model43_0.9833333333333333.pth'))
 
     l_g_net.to(device)
     r_g_net.to(device)
@@ -109,5 +102,5 @@ def test(opts):
 
 if __name__ == "__main__":
     opts = parser.parse_args() # Namespace object
-    create_dirs('./test')
+    create_dirs('./test_results')
     test(opts)
