@@ -1,6 +1,6 @@
 # Regional-Local Adversarially Learned One-Class Classifier Anomalous Sound Detection in Global Long-Term Space (GRLNet)
 
-![img1](https://github.com/CavitationDetection/GRLNet/blob/main/Image/framework.pdf)
+![img1](https://github.com/CavitationDetection/GRLNet/blob/main/Image/framework.png)
 ## Requirements
 
 - Python 3.8.11
