@@ -15,3 +15,5 @@ Note: our model is trained on NVIDIA GPU (A100).
 - network.py is the network structure of local generator, regional generator and the discirminator of our method.
 - opts.py is all the necessary parameters for our method (e.g. comprehensive output factor, learning rate and data loading path and so on).
 - Execute train.py
+
+Note that, for the current version. test.py is nor required as the code calls the test function every iteration from within to visualize the performance difference between the baseline and the GRLNet. However, we also provide a separate test.py file for visualising the test set. 
