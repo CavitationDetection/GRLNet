@@ -1,4 +1,4 @@
-# Regional-Local Adversarially Learned One-Class Classifier Anomalous Sound Detection in Global Long-Term Space
+# Regional-Local Adversarially Learned One-Class Classifier Anomalous Sound Detection in Global Long-Term Space (GRLNet)
 
 ## Requirements
 
@@ -16,4 +16,7 @@ Note: our model is trained on NVIDIA GPU (A100).
 - opts.py is all the necessary parameters for our method (e.g. comprehensive output factor, learning rate and data loading path and so on).
 - Execute train.py
 
-Note that, for the current version. test.py is nor required as the code calls the test function every iteration from within to visualize the performance difference between the baseline and the GRLNet. However, we also provide a separate test.py file for visualising the test set. 
+Note that, for the current version. test.py is nor required as the code calls the test function every iteration from within to visualize the performance difference between the baseline and the GRLNet. However, we also provide a separate test.py file for visualising the test set. For that, the instructions can be found below.
+
+- Download trained generators and discirminator models from [here] and place inside the directory ./models/
+- run test.py
