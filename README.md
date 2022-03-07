@@ -32,4 +32,13 @@ Note that, for the current version. test.py is nor required as the code calls th
 
 For any queries, please feel free to contact YuSha et al. through yusha20211001@gmail.com
 
-If you find this code helpful, please cite our paper: 
+## Citation
+If you find our work useful in your research, please consider citing:
+```
+@article{sha2022regional,
+  title={Regional-Local Adversarially Learned One-Class Classifier Anomalous Sound Detection in Global Long-Term Space},
+  author={Sha, Yu and Faber, Johannes and Gou, Shuiping and Liu, Bo and Li, Wei and Schramm, Stefan and Stoecker, Horst and Steckenreiter, Thomas and Vnucec, Domagoj and Wetzstein, Nadine and others},
+  journal={arXiv preprint arXiv:2202.13245},
+  year={2022}
+}
+```
