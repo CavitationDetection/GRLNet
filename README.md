@@ -2,6 +2,8 @@
 Anomalous sound detection (ASD) is one of the most significant tasks of mechanical equipment monitoring and maintaining in complex industrial systems. In practice, it is vital to precisely identify abnormal status of the working mechanical system, which can further facilitate the failure troubleshooting. In this paper, we propose a multi-pattern adversarial learning one-class classification framework, which allows us to use both the generator and the discriminator of an adversarial model for efficient ASD. The core idea is learning to reconstruct the normal patterns of acoustic data through two different patterns of auto-encoding generators, which succeeds in extending the fundamental role of a discriminator from identifying real and fake data to distinguishing between regional and local pattern reconstructions. Furthermore, we present a global filter layer for long-term interactions in the frequency domain space, which directly learns from the original data without introducing any human priors. Extensive experiments performed on four real-world datasets from different industrial domains (three cavitation datasets provided by SAMSON AG, and one existing publicly) for anomaly detection show superior results, and outperform recent state-of-the-art ASD methods.
 
 ![img1](https://github.com/CavitationDetection/GRLNet/blob/main/Image/framework.png)
+
+[[arXiv]](https://arxiv.org/abs/2202.13245)
 ## Requirements
 
 - Python 3.8.11
