@@ -32,7 +32,7 @@ Note that, for the current version. test.py is nor required as the code calls th
 
 [7.3.2022] Adding a citation for a preprinted version.
 
-[8.3.2022] Adding a link to our paper (arXiv).
+[8.3.2022] Adding a link to our paper [arXiv](https://arxiv.org/abs/2202.13245).
 
 [18.05.2022] Our paper was accepted by the 28TH ACM SIGKDD International Conference on Knowledge Discovery & Data Mining (ACM SIGKDD2022).
 
