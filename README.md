@@ -48,4 +48,17 @@ If you find our work useful in your research, please consider citing:
   journal={arXiv preprint arXiv:2202.13245},
   year={2022}
 }
+
+@inproceedings{10.1145/3534678.3539133,
+title = {Regional-Local Adversarially Learned One-Class Classifier Anomalous Sound Detection in Global Long-Term Space},
+author = {Sha, Yu and Gou, Shuiping and Faber, Johannes and Liu, Bo and Li, Wei and Schramm, Stefan and Stoecker, Horst and Steckenreiter, Thomas and Vnucec, Domagoj and Wetzstein, Nadine and Widl, Andreas and Zhou, Kai},
+year = {2022},
+isbn = {9781450393850},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+doi = {10.1145/3534678.3539133},
+booktitle = {Proceedings of the 28th ACM SIGKDD Conference on Knowledge Discovery and Data Mining},
+pages = {3858–3868},
+numpages = {11},
+}
 ```
