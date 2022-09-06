@@ -23,9 +23,9 @@ warnings.filterwarnings("ignore")
 import os
 parser = argparse.ArgumentParser(description='Our model options')
 parser.add_argument('--cuda', action = 'store_true', help = 'Choose device to use cpu cuda') 
-parser.add_argument('--test_root', action = 'store', type = str,default = '/home/deepthinkers/samson/yusha_workspace/AnomalyDetectionData/Data2017/windowsize/778240_6/TestSpec', 
+parser.add_argument('--test_root', action = 'store', type = str,default = '/Test', 
                         help = 'Root path of test data (normal and abormal data)')
-parser.add_argument('--test_label_path', action='store', type=str, default = '/home/deepthinkers/samson/yusha_workspace/AnomalyDetectionData/Data2017/windowsize/778240_6/Label/test_split_label.csv', 
+parser.add_argument('--test_label_path', action='store', type=str, default = '/Label/test_split_label.csv', 
                         help = 'Path of test data label (normal and abnormal data)') 
 
 parser.add_argument('--mess_length', action = 'store', type = int, default = 233472, 
